@@ -1,0 +1,167 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	"anubis.BridgeMetro" = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Anubis"
+		_system_properties = 
+		{
+			event_origin = "maps/de_metro.vmap"
+		}
+		enable_child_events = true
+		override_dsp_preset = true
+		dsp_preset = "reverb_21_outsideStreet"
+		set_child_position = false
+		distance_effect_mix = 0.0
+		use_time_volume_mapping_curve = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		restrict_source_reverb = true
+		distance_volume_mapping_curve = 
+		[
+			[
+				0.0, 1.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+			[
+				300.0, 1.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+		]
+		soundevent_01 = 
+		[
+			"anubis.Outdoors",
+			"anubis.Alley.Rattlesnake_02",
+			"anubis.Bridge.Palms_01",
+			"anubis.Bridge.Cricket",
+			"anubis.Bridge.Nature_03",
+			"anubis.Canals.Water_01",
+			"anubis.Canals.Water_03",
+			"anubis.Canals.Water_04",
+			"anubis.Bridge.WoodCrane",
+			"anubis.CTSpawn.Cricket_01",
+			"anubis.Bridge.Rockfall_01",
+			"anubis.Bridge.Smallbirds_Long_01",
+			"anubis.Bridge.Smallbirds_Long_02",
+			"anubis.Bridge.Smallbirds_Long_03",
+			"anubis.Bridge.Smallbirds_Short_01",
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			[
+				0.0, 1.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+			[
+				0.614939, 0.75641, -0.533563, -0.533563,
+				3.0, 1.0,
+			],
+			[
+				1.465714, 0.217949, -0.317145, -0.317145,
+				1.0, 1.0,
+			],
+			[
+				3.0, 0.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			[
+				0.0, 0.0, 0.0, 1.417088,
+				2.0, 1.0,
+			],
+			[
+				0.323186, 0.457983, 0.450868, 0.450868,
+				1.0, 1.0,
+			],
+			[
+				2.217943, 1.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			[
+				0.0, 1.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+			[
+				300.0, 1.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+		]
+	}
+	"overpass.Inside.CityMetro" = 
+	{
+		type = "csgo_mega"
+		mixgroup = "Overpass"
+		_system_properties = 
+		{
+			event_origin = "maps/de_metro.vmap"
+		}
+		volume = 0.15
+		use_distance_unfiltered_stereo_mapping_curve = true
+		use_time_volume_mapping_curve = true
+		set_child_position = false
+		distance_effect_mix = 0.0
+		restrict_source_reverb = true
+		pitch = 0.8
+		vsnd_files_track_01 = "sounds/ambient/atmosphere/amb_bank_01.vsnd"
+		distance_volume_mapping_curve = 
+		[
+			[
+				0.0, 1.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+			[
+				300.0, 1.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+			[
+				0.0, 0.764706, 0.0, 0.0,
+				2.0, 3.0,
+			],
+			[
+				300.0, 0.761029, 0.0, 0.0,
+				2.0, 3.0,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+			[
+				0.0, 1.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+			[
+				0.614939, 0.75641, -0.533563, -0.533563,
+				3.0, 1.0,
+			],
+			[
+				1.465714, 0.217949, -0.317145, -0.317145,
+				1.0, 1.0,
+			],
+			[
+				3.0, 0.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+			[
+				0.0, 0.0, 0.0, 1.417088,
+				2.0, 1.0,
+			],
+			[
+				0.323186, 0.457983, 0.450868, 0.450868,
+				1.0, 1.0,
+			],
+			[
+				2.217943, 1.0, 0.0, 0.0,
+				2.0, 3.0,
+			],
+		]
+	}
+}
