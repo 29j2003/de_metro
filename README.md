@@ -1,6 +1,5 @@
 # de_metro
-An upcoming CS2 map featuring the usual design practices of Counter Strike maps.
+An upcoming Counter-Strike 2 map featuring existing design practices of the original Counter-Strike maps. 
+Available on the steam workshop in its alpha version: https://steamcommunity.com/sharedfiles/filedetails/?id=3338101240
 
-map Folder for anything related with the map
 
-models Folder for specific models that are created for the map
