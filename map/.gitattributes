@@ -1,2 +1,0 @@
-maps filter=lfs diff=lfs merge=lfs -text
-_vrad3 filter=lfs diff=lfs merge=lfs -text
